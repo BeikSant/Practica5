@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive; 
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: brown;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+.logo, .texto{
+    float: left;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.texto{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 0;
+    width: 40%;
+    font-size: 15px;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    text-align: center;
+    float: left;
+    display: block;
+    width: 100%;
+    background: khaki;
+    padding: 10px;
+}
+
+footer ul li{
+    float: left;
+    width: 33%;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 12px;
+}
+
+footer ul li a{
+    align-content: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+footer ul a:only-child{
+    background: rgba(0,0,0,0.1);
+}
+
+footer ul a:hover{
+    background: blue;
+}
+
+
+
+
+
+footer ul lia
+
+header .contenedor{
+    display: table;
+}
+
+@media (min-width: 1201px){
+
+    header{
+        height: 150px;
+    }
+
+    .logo img{
+        width: 400px;
+    }
+
+    .texto{
+        margin-left: 10px;
+        margin-right: 50px;
+        float: right;
+        width: 60%;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    header{
+        height: 110px;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+
+    .texto{
+        text-align: center;
+        float: right;
+        width: 50%;;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 720px){
+}

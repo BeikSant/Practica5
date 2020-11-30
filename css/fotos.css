@@ -1,0 +1,155 @@
+section{
+    margin-top: 100px;
+}
+
+section h3{
+    text-align: center;
+}
+
+.fotos-cont{
+    display: block;
+    background: darkcyan;
+    margin: 10px;
+    
+}
+
+#ultimo{
+    margin-bottom: 150px;
+}
+
+ul.fotos{
+    width: 350px;
+    margin: 25px 10px 0px 50px;
+    text-align: center;
+}
+
+ul.fotos li{
+    display: block;
+    text-align: center;
+}
+
+ul.fotos a{
+    display: inline;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+ul.fotos img{
+    display: block;
+    width: 200px;
+    height: 240px;
+    margin-bottom: 12px;
+    margin-left: 60px;
+}
+
+ul.fotos a::before{
+    content: attr(title);
+}
+
+ul.fotos ul{
+    text-align: center;
+}
+
+ul.fotos ul.info li{
+    display: inline;
+    padding: 10px;
+}
+
+ul.fotos .autor{
+    margin-bottom: 15px;
+}
+
+ul.fotos .autor:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+ul.fotos li img:hover{
+transform: scale(1.01);
+   box-shadow: 0 2px 4px rgb(0,0,0,.5);
+   position: relative;
+}
+
+ul.fotos li a:hover{
+    background-color: rgba(0,100,100,.25);
+}
+
+ul.fotos .etiquetas{
+    display: block;
+}
+
+ul.fotos .etiquetas li{
+    display: inline;
+}
+
+ul.fotos .etiquetas li a{
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+@media (min-width: 1201px){
+    section{
+        margin-top: 250px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .fotos-cont{
+        margin: 10px;
+        float: left;
+    }
+
+    ul.fotos{
+        display: inline;
+        text-align: center;
+    }
+
+    ul.fotos img{
+        width: 200px;
+        height: 210px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+        
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    
+    section{
+        margin-top: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .fotos-cont{
+        margin: 10px;
+        float: left;
+    }
+
+    ul.fotos{
+        display: inline;
+        text-align: center;
+    }
+
+    ul.fotos img{
+        width: 200px;
+        height: 210px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+        
+    }
+
+}
+
+@media (max-width: 510px){
+}
+

@@ -1,0 +1,78 @@
+section{
+    display: block;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: left;
+    background:lightslategrey;
+}
+
+.formulario{
+    display: block;
+    padding: 5px;
+    left: 40px;
+    margin-top: 90px;
+    text-align:  center;
+}
+
+.formulario .ingresar{
+    margin-bottom: 25px;
+}
+
+.formulario h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.registro{
+    padding: 5px;
+    text-align: left;
+}
+
+.registro #user{
+    margin: 15px;
+    margin-left: 90px;
+}
+
+.registro #password{
+    margin: 15px;
+    margin-left:70px;
+}
+
+.registro #password2{
+    margin: 15px;
+    margin-left: 11px;
+    
+}
+
+.registro #correoE{
+    margin: 15px;
+    margin-left: 20px;
+}
+
+.registro #nombres{
+    margin: 15px;
+    margin-left: 10px;
+}
+
+
+
+@media (min-width: 1201px){
+    section{
+        margin-top: 250px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    section{
+        margin-top: 230px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 510px){
+}

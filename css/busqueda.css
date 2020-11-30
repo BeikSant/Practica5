@@ -1,0 +1,25 @@
+.busqueda{
+    background: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+.busqueda input{
+    font-size: 15px;
+    width: 200px;
+}
+
+@media (min-width: 1201px){
+    .busqueda input{
+        width: 500px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    .busqueda input{
+        width: 300px;
+    }
+}
+
+@media (max-width: 720px){
+}

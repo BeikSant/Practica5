@@ -1,0 +1,106 @@
+section{
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+.fotos{
+    display: block;
+    background: red;
+    text-align: center;
+}
+
+.fotos .info{
+    display: block;
+}
+
+.fotos .info li{
+    display: inline;
+    padding: 10px;
+}
+
+.fotos .autor{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fotos .etiquetas{
+    display: block;
+    padding: 10px 0 10px 0;
+    
+}
+
+.fotos .etiquetas li{
+    display: inline;
+}
+
+.fotos .etiquetas a{
+    color: black;
+}
+
+
+ul.fotos img{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+   
+}
+
+.fotos h4{
+    padding-top: 15px;
+}
+
+ul.fotos li img:hover{
+    transform: scale(1.05);
+       box-shadow: 0 2px 4px rgb(0,0,0,.5);
+       
+}
+
+ul.fotos li a:hover::after{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: black;
+    content: "Interactuar";
+}
+
+
+.hover{
+    position: relative;
+    color: red;
+}
+
+    
+@media (min-width: 1201px){
+    section{
+        margin-top: 220px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    section{
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 510px){
+}
+
+
+
+.comentario{
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background: lightcoral;
+    margin-bottom: 100px;
+}
+
+.comentarios-li{
+    display: block;
+    background: blue;
+}
+

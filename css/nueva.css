@@ -1,0 +1,89 @@
+section{
+    display: block;
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: left;
+    background:lightslategrey;
+}
+
+.formulario{
+    display: block;
+    padding: 5px;
+    left: 40px;
+    margin-top: 90px;
+    text-align:  center;
+}
+
+.formulario .crear{
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.formulario h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.form-nueva{
+    padding: 5px;
+    text-align: left;
+}
+
+.form-nueva #titulo{
+    margin: 15px;
+    margin-left: 90px;
+}
+
+#form-desc{
+    display: block;
+}
+
+.form-nueva #descripcion{
+    margin-top: -20px;
+    margin-left:135px;
+}
+
+.form-nueva #etiqueta{
+    margin: 15px;
+    margin-left: 65px;
+}
+
+
+.form-nueva img{
+    margin: 15px;
+    margin-left: 80px;
+}
+
+#botones-img{
+    margin-left: 150px;
+}
+
+#botones-img a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+@media (min-width: 1201px){
+    section{
+        margin-top: 250px;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+    section{
+        margin-top: 230px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 510px){
+}
